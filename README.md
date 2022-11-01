@@ -1,7 +1,7 @@
 # Physics Informed Neural Network framework for 2D Unsteady Diffusion Equation
 
 We will solve the diffusion equation
-$\dfrac{\partial u}{\partial t} = \dfrac{\partial^{2} u}{\partial x^{2}} - e^{-t}(\text{sin}(\pi x) - \pi^{2} \text{sin}(\pi x)) \qquad \qquad x \in [-1, 1], \; t \in [0, 2]$
+$\dfrac{\partial u}{\partial t} = \dfrac{\partial^{2} u}{\partial x^{2}} - e^{-t}(\text{sin}(\pi x) - \pi^{2} \text{sin}(\pi x))$ for $x \in [-1, 1], \; t \in [0, 2]$
 
 with initial condition
 $u(x, 0) = \text{sin}(\pi x)$
