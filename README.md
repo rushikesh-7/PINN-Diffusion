@@ -10,7 +10,11 @@ and boundary condition
 $u(-1, t) = u(1, t) = 0$
 
 For reference, the exact solution is $u = e^{-t}\text{sin}(\pi x)$. The solution looks like as shown in the figure:
-![Exact Solution of the Diffusion Equation](Exact.png)
+
+<img src="Exact.png"
+     alt="Exact Solution of the Diffusion Equation"
+     style="float: left; margin-right: 10px;" />
+     
 
 ## Using the code
 You need to make changes only in the parameter file [Parameter.py](https://github.com/rushikesh-7/PINN-Diffusion/blob/main/Parameters.py). The meaning of each parameter in the file is commented in the file itself.
